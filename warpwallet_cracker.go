@@ -2,14 +2,14 @@ package main
 
 import (
   pbkdf2 "github.com/ctz/go-fastpbkdf2"
-	"github.com/golang/crypto/blob/master/scrypt"
+	"golang.org/x/crypto/scrypt"
   "unsafe"
 	"crypto/sha256"
 	"fmt"
 	"time"
 	"os"
 	"math/rand"
-	"github.com/mkvtvseries/btckeygenie/blob/master/btckey/"
+	"github.com/mkvtvseries/btckeygenie"
 )
 
 const wordSize = int(unsafe.Sizeof(uintptr(0)))
