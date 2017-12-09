@@ -9,7 +9,7 @@ import (
 	"time"
 	"os"
 	"math/rand"
-	"github.com/vsergeev/btckeygenie/btckey"
+	"https://github.com/vsergeev/btckeygenie/tree/master/btckey"
 )
 
 const wordSize = int(unsafe.Sizeof(uintptr(0)))
